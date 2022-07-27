@@ -1,9 +1,40 @@
 li {
-    list-style-type: none;
-    width: 33%;
-    padding: 10px 15px;
-    margin-bottom: 5px;
-    border-radius: 25px;
+  list-style-type: none;
+  width: 33%;
+  padding: 10px 15px;
+  margin-bottom: 5px;
+  border-radius: 25px;
 }
 
 /* Your code here */
+li[data-type="meats"] {
+  background-color: red;
+}
+
+li[data-type="frozen"] {
+  background-color: lightblue;
+}
+
+li[data-type="dairy"] {
+  background-color: whitesmoke;
+}
+
+li[data-type="canned"] {
+  background-color: grey;
+}
+
+li[data-type="bakery"] {
+  background-color: yellow;
+}
+
+li[data-type="drinks"] {
+  background-color: darkblue;
+}
+
+li[data-type="produce"] {
+  background-color: green;
+}
+
+li[data-type="toiletries"] {
+  background-color: brown;
+}
